@@ -1,12 +1,17 @@
-#2 feito
+#2 
 x = []
 for i in range(10):
     n = float(input("Digite um valor: "))
     x.append(n)
+
 print(f"Lista original: {x}")
+
+#esse for anda a lista x inteira
 for i in range(len(x)):
-    if x[i] % 2 == 0:
-        x[i] *= i
-    else:
-        x[i] = i
+    if x[i] % 2 == 0: #se o valor encontrado é par
+        x[i] *= i #multiplica o valor pelo índice(começa em 0)
+
+    else: #senão, o valor vai ser impar
+        x[i] = i #aqui ele atualiza o valor da lista pelo seu indice
+
 print(f"Lista atualizada: {x}")
