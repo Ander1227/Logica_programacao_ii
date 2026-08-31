@@ -1,0 +1,5 @@
+#1 feito
+x = []
+for i in range(10):
+    x.append(input("Digite um nome: "))
+print(x)
