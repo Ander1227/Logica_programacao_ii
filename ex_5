@@ -1,0 +1,16 @@
+#5
+A = []
+B = []
+C = []
+for i in range(5):
+    n = float(input("Digite um valor: "))
+    A.append(n)
+    m = float(input("Digite outro valor: "))
+    B.append(m)
+C += A
+C += B
+print(f"Lista original: {A}")
+print(f"Lista original 2: {B}")
+print(f"A junção das duas lista é: {C}")
+C.sort()
+print(f"Lista ordenada: {C}")
