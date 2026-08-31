@@ -1,0 +1,22 @@
+#4
+x = []
+y = []
+z = []
+y_invertida = []
+
+for i in range(5):
+    n = float(input("Digite um valor: "))
+    x.append(n)
+    m = float(input("Digite outro valor: "))
+    y.append(m)
+
+for j in range(len(y) - 1, -1, -1): #começa no último indice, até o indice 0, de ao contrário(-1)
+    y_invertida.append(y[j])#adiciona o elemento trocado em uma nova lista
+#vai andar pela primeira lista
+for i in range(len(x)):
+    multiplica = x[i] * y_invertida[i] #multiplica a lista 1 * pelo inverso da 2
+    z.append(multiplica) #add o resultado em outra lista
+
+print(f"Lista original 1: {x}")
+print(f"Lista original 2: {y}")
+print(f"O produto da lista 1 pelo o inverso da lista 2 é: {z}")
