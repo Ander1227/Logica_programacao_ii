@@ -1,5 +1,5 @@
 #1 
-x = []
-for i in range(10):
-    x.append(input("Digite um nome: "))
+x = [] #cria uma lista
+for i in range(10): #executa 10 vezes
+    x.append(input("Digite um valor: "))#add a lista
 print(x)
