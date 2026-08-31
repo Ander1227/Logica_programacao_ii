@@ -1,1 +1,15 @@
-
+#3
+x = []
+y = []
+z = []
+for i in range(10):
+    n = float(input("Digite um valor: "))
+    x.append(n)
+    m = float(input("Digite outro valor: "))
+    y.append(m)
+for i in range(len(x)):
+    soma = x[i] + y[i]
+    z.append(soma)
+print(f"Lista original 1: {x}")
+print(f"Lista original 2: {y}")
+print(f"Soma das listas: {z}")
