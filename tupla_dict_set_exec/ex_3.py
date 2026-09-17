@@ -1,11 +1,8 @@
 #trocando ordem indices par/impar
 K = []
-for i in range(3):
+for i in range(4):
     num = int(input("Digite um numero: "))
-    if i % 2 == 0:
-        K.append(num)
-        i += 1
-    else:
-        i -= 1
-        K.append(num)
+    K.append(num)
+for i in range(0, len(K), 2): #va de 2 em 2 p pegar valores pares
+    K[i], K[i+1] = K[i + 1], K[i] #inverte o indice atual
 print(K)
