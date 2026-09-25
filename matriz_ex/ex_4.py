@@ -1,3 +1,4 @@
+#soma os elementos da linha 4
 M = []
 lin = 5
 col = 5
