@@ -1,3 +1,9 @@
+#mostra os valores da diagonal principal
+""" exemplo:
+1
+    0
+        1
+"""
 M = []
 lin = 5
 col = 5
