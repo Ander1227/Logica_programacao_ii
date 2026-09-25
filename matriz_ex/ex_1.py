@@ -1,3 +1,4 @@
+#cria uma matriz de 5 elementos
 M = []
 for i in range(5):
     L = [] #precisa zerar a lista se n vai ficar add
