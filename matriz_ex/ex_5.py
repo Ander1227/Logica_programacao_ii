@@ -1,3 +1,4 @@
+#soma dos elemntos da linha 2 e soma dos elementos da diagonal pricipal
 M = []
 lin = 10
 col = 10
